@@ -1,0 +1,19 @@
+# Build outputs
+/out/
+
+# IDE settings
+/.idea/
+/.vscode/
+
+# Compiled classes
+*.class
+
+# Local libraries (downloaded jars)
+/lib/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration containing secrets
+config.properties
