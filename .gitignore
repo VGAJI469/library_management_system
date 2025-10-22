@@ -1,19 +1,40 @@
-# Build outputs
-/out/
-
-# IDE settings
-/.idea/
-/.vscode/
-
-# Compiled classes
+# Compiled class files
 *.class
 
-# Local libraries (downloaded jars)
-/lib/
+# Logs
+*.log
 
-# OS files
-.DS_Store
+# Windows
 Thumbs.db
+Desktop.ini
 
-# Local configuration containing secrets
-config.properties
+# macOS
+.DS_Store
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Build output
+out/
+bin/
+build/
+target/
+
+# Gradle
+.gradle/
+
+# Maven
+.mvn/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
